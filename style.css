@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Serif:100i,700i');
+
+body{
+    font-family: 'IBM Plex Serif', serif;
+    font-weight: 100;
+    font-style: italic;
+    color: #171516;
+    background: #fcfcfc;
+    margin: 0;
+    text-align: center;
+}
+
+main{
+    max-width: 450px;
+    margin: 0 auto;
+}
+
+.image{
+    position: relative;
+}
+
+.image img{
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.credits{
+    text-decoration: none;
+    background: #fff;
+    width: 15px;
+    height: 15px;
+    display: block;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 49px;
+    right: 5px;
+    font-size: 12px;
+    text-align: center;
+    line-height: 15px;
+    color: #171516;
+}
+
+.small{
+    text-align: center;
+    color: #737373;
+    font-size: 13px;
+}
+
+.small a{
+    text-decoration: none;
+    color: #fff;
+    padding:2px 5px;
+    margin-left: 5px;
+}
+
+.small .facebook{
+    background: #3b5999;
+}
+
+.small .twitter{
+    color: #171516;
+    background: #55acee;
+}
+
+.small .tumblr{
+    background: #34465d;
+}
+
+h1{
+    font-size: 35px;
+    text-align: center;
+    font-weight: 700;
+}
+
+#rute{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#stations{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.radio{
+    display: inline-grid;
+    font-size: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.radio span{
+    cursor: pointer;
+}
+
+.radio input:checked + span{
+    text-decoration: underline;
+}
+
+.radio input{
+    visibility:hidden;
+}
+
+#control{
+    text-align: center;
+}
+
+#control button{
+    font-family: 'IBM Plex Serif', serif;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.link{
+    margin: 30px auto;
+    width: 105px; 
+}
+
+.link img {
+    width: 30px;
+    margin:0 10px;
+}
+
+.link a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+@media (min-width: 460px) {
+    body{
+        text-align: left;
+    }
+
+    h1{
+        font-size: 50px;
+    }
+
+    .radio{
+        display: inline-block;
+        width: 200px;     
+    }
+        
+}
